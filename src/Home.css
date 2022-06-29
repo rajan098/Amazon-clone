@@ -1,0 +1,34 @@
+.home{
+    /* display: flex;   */
+     /* justify-content: center */
+    /* margin-left:auto;
+    margin-right:auto; */
+    max-width: 100%;
+}
+
+.home__image{
+    width: 3000%;
+    z-index: -1;
+    margin-bottom:10px;
+    /* mask-image: linear-gradient(to bottom,rgb(0,0,0,1),rgb(0,0,0,1)); */
+    height: 900px;
+   
+}
+.posters::-webkit-scrollbar {
+    display: none;
+}
+.home__row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 500px;
+    margin-top: -240;
+    height: 700px;
+}
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 100%;
+}
